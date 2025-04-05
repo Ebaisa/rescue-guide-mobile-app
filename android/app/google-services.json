@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "81088833868",
+    "project_id": "rescueguide-dc93c",
+    "storage_bucket": "rescueguide-dc93c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:81088833868:android:88ba279533ec8c1af607e9",
+        "android_client_info": {
+          "package_name": "com.example.profile_page"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbE7oGfizogMHjk67yUbGU9xXc-oHJch4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
