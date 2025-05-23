@@ -70,7 +70,7 @@ class _EmergencyContactsState extends State<EmergencyContacts> {
           .delete();
 
       ScaffoldMessenger.of(context).showSnackBar(
-        SnackBar(content: Text('Contact deleted successfully')),
+        SnackBar(content: Text('Contact deleted successfully!')),
       );
     } catch (e) {
       ScaffoldMessenger.of(context).showSnackBar(
@@ -131,7 +131,7 @@ class _EmergencyContactsState extends State<EmergencyContacts> {
 
                   Navigator.pop(context);
                   ScaffoldMessenger.of(context).showSnackBar(
-                    SnackBar(content: Text('Contact updated successfully')),
+                    SnackBar(content: Text('Contact updated successfully!')),
                   );
                 } catch (e) {
                   ScaffoldMessenger.of(context).showSnackBar(
