@@ -51,7 +51,7 @@ class _EmergencyContactsState extends State<EmergencyContacts> {
       _phoneController.clear();
 
       ScaffoldMessenger.of(context).showSnackBar(
-        SnackBar(content: Text('Contact added successfully')),
+        SnackBar(content: Text('Contact added successfully!')),
       );
     } catch (e) {
       ScaffoldMessenger.of(context).showSnackBar(
