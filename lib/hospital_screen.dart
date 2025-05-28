@@ -29,7 +29,7 @@ class _HospitalScreenState extends State<HospitalScreen> {
     serviceEnabled = await Geolocator.isLocationServiceEnabled();
     if (!serviceEnabled) {
       setState(() {
-        _errorMessage = 'Location services are disabled.';
+        _errorMessage = 'Location services are disabled!';
         _isLoading = false;
       });
       return;
@@ -40,7 +40,7 @@ class _HospitalScreenState extends State<HospitalScreen> {
       permission = await Geolocator.requestPermission();
       if (permission == LocationPermission.denied) {
         setState(() {
-          _errorMessage = 'Location permissions are denied';
+          _errorMessage = 'Location permissions are denied!';
           _isLoading = false;
         });
         return;
