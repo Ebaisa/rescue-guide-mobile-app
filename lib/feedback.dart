@@ -15,7 +15,7 @@ class _FeedbackFormPageState extends State<FeedbackFormPage> {
   void _submitFeedback() {
     if (_selectedStars == 0 || _recommendation == null) {
       ScaffoldMessenger.of(context).showSnackBar(
-        const SnackBar(content: Text('Please complete the feedback form')),
+        const SnackBar(content: Text('Please complete the feedback form!')),
       );
       return;
     }
