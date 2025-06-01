@@ -7,4 +7,5 @@ key features
 - nearby Hospitals
 - SOS Alert
 - AI Health Assistant
+- Health related News
 
