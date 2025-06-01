@@ -8,4 +8,5 @@ key features
 - SOS Alert
 - AI Health Assistant
 - Health related News
+- Emergency Contact
 
