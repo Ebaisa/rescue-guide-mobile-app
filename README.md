@@ -6,4 +6,5 @@ key features
 - Fiest Aid Guideliness
 - nearby Hospitals
 - SOS Alert
+_ AI Health Assistant
 
